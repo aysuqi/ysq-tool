@@ -23,7 +23,7 @@
 		"prepare": "husky install",
 		"commitlint": "commitlint --config commitlint.config.cjs -e -V"
 	},
-	"keywords": [],
+	"keywords": ["fish-plugin-utils"],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
