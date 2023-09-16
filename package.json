@@ -5,6 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
 		"lint": "eslint src/ --ext .ts,.tsx,.js,.jsx --fix --cache",
 		"format": "prettier --write \"./**/*.{html,vue,js,ts,json,md}\" ",
 		"prepare": "husky install",
