@@ -2,16 +2,20 @@
 	"compilerOptions": {
 		"rootDir": ".",
 		"outDir": "dist",
-		"target": "esnext",
-		"module": "esnext",
+		"target": "es2018",
+		"module": "ESNext",
 		"sourceMap": true,
 		"moduleResolution": "node",
+		"allowJs": false,
 		"strict": true,
+		"noUnusedLocals": true,
 		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"jsx": "preserve",
 		"lib": ["esnext", "dom"],
-		"types": []
+		"types": [],
+		"skipLibCheck": true
 	},
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
