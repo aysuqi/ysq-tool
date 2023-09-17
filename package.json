@@ -4,7 +4,7 @@
 	"description": "ysq-tool",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
-	"typings": "",
+	"typings": "dist/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.mjs",
