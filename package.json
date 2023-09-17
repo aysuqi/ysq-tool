@@ -1,6 +1,6 @@
 {
 	"name": "@ysq/tool-lib",
-	"version": "1.0.1-0",
+	"version": "1.0.0-0",
 	"description": "ysq-tool",
 	"main": "dist/tool.mjs",
 	"typings": "dist/index.d.ts",
@@ -22,8 +22,8 @@
 	"keywords": [
 		"fish-plugin-utils"
 	],
-	"author": "",
-	"license": "ISC",
+	"author": "aysuqi",
+	"license": "MIT",
 	"devDependencies": {
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
