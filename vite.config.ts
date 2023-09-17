@@ -2,11 +2,12 @@
  * @Description:
  * @Author: yusunqi
  * @Date: 2023-09-16 18:31:30
- * @LastEditTime: 2023-09-16 21:13:49
+ * @LastEditTime: 2023-09-17 07:59:50
  * Copyright (c) 2023 by yusunqi, All Rights Reserved.
  */
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
+import dts from 'vite-plugin-dts'
 
 export default defineConfig({
 	build: {
@@ -24,5 +25,6 @@ export default defineConfig({
 				}
 			}
 		}
-	}
+	},
+	plugins: [dts()]
 })
