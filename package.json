@@ -1,8 +1,8 @@
 {
-	"name": "@ysq/tool",
+	"name": "@ysq/tool-lib",
 	"version": "1.0.0",
 	"description": "ysq-tool",
-	"main": "dist/index.mjs",
+	"main": "dist/tool.mjs",
 	"typings": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
