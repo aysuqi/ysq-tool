@@ -2,7 +2,7 @@
  * @Description:
  * @Author: yusunqi
  * @Date: 2023-09-16 18:31:30
- * @LastEditTime: 2023-09-17 07:59:50
+ * @LastEditTime: 2023-09-17 09:01:25
  * Copyright (c) 2023 by yusunqi, All Rights Reserved.
  */
 import { resolve } from 'path'
@@ -14,7 +14,6 @@ export default defineConfig({
 		lib: {
 			entry: resolve(__dirname, 'src/index.ts'),
 			name: 'Plugin',
-			formats: ['es', 'cjs', 'umd'],
 			fileName: 'index'
 		},
 		rollupOptions: {

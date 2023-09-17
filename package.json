@@ -1,16 +1,9 @@
 {
-	"name": "ysq-tool",
-	"version": "1.0.0-0",
+	"name": "@ysq/tool",
+	"version": "1.0.0",
 	"description": "ysq-tool",
-	"main": "dist/index.js",
-	"module": "dist/index.mjs",
+	"main": "dist/index.mjs",
 	"typings": "dist/index.d.ts",
-	"exports": {
-		".": {
-			"import": "./dist/index.mjs",
-			"require": "./dist/index.js"
-		}
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/aysuqi/ysq-tool.git"
